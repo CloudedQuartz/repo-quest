@@ -60,7 +60,7 @@ You need to generate a Github access token that allows RepoQuest to perform auto
 
 #### Option A: Generate a one-off token
 
-Go to <https://github.com/settings/tokens/new>. Select the **repo** scope. Click "Generate Token" at the bottom. Copy the token into the file `~/.rqst-token`. On MacOS, you can run:
+Go to <https://github.com/settings/tokens/new>. Select the **repo** scope. Click "Generate Token" at the bottom. Copy the token into the file `~/.rqst-token` (`C:\Users\<username>\.rqst-token` on Windows). On MacOS, you can run:
 
 ```console
 pbpaste > ~/.rqst-token
